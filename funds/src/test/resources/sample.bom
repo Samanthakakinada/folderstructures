@@ -1,0 +1,12 @@
+brooklyn.catalog:
+  id: axis.MySampleInCatalog
+  version: "1.0"
+  itemType: template
+  description: My Sample
+  displayName: MySample
+  iconUrl: classpath:///sample-icon.png
+  libraries:
+  - file:///Path/to/archetype/sample/target/funds-1.0-SNAPSHOT.jar
+  item:
+    services:
+    - type: axis.MySample
